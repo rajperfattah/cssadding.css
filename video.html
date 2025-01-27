@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video</title>
+    <style>
+        .video {
+            width: 1000px;
+            height: 600px;
+        }
+        .video2 {
+            width: 1000px;
+            height: 600px;
+        }
+        .audio {
+            width: 1000px;
+            height: 150px;
+            background-color: blueviolet;
+           padding-top: 10%;
+            padding-bottom: 10%;
+            margin-bottom: 10%;
+            margin-top: 10%;
+
+           
+        }
+    </style>
+</head>
+<body>
+    <video controls preload="auto" autoplay="autoplay" class="video">
+        <source src="rube.mp4" type="video/mp4">
+    </video>
+    <br>
+    <video controls  poster="i1.jpg" class="video2">
+        <source src="rube.mp4" type="video/mp4">
+    </video>
+    <br>
+    <audio controls class="audio">
+        <source src="aaj.m4a" type="audio/mp4">
+        Audio is not supported
+    </audio>
+</body>
+</html>
